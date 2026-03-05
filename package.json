@@ -1,0 +1,23 @@
+{
+  "name": "telegrambot-game",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "start:dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "axios": "^1.13.4",
+    "dotenv": "^17.2.3",
+    "node-telegram-bot-api": "^0.67.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}
